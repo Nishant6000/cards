@@ -35,15 +35,47 @@
   <div class="container">
 	 <div class="row tp1">
 		<div class="text-center resultbox col-md-3">
-		  Results:
+		  <h3>Results:</h3>
 		</div>	
 		<div class="text-center result-card-con col-md-3">
 			<img class="" src="./img/cardback.png" >
 		</div>	
 		<div class="myvalbtn col-md-6">
-			
+			 <button type="button" class="btn login100-walet-form-btn">My Wallet: 1000</button>
 		</div>	
-	</div>	
+	 </div>	
+	</div>
+	<div class="container">
+	 <div class="row">
+		<div class="text-center col-md-9 selectioncardbg">
+			<div class="row">
+				<div class="col-md-3 selectioncard">
+					<img class="" src="./img/cardback.png" >
+				</div>
+				<div class="col-md-3 selectioncard">
+						<img class="" src="./img/cardback.png" >
+				</div>
+				<div class="col-md-3 selectioncard">
+						 <img class="" src="./img/cardback.png" >
+				</div>
+				<div class="col-md-3 selectioncard">
+						<img class="" src="./img/cardback.png" >
+				</div>
+			</div>
+		</div>	
+		<div class="text-center col-md-3">
+			<div class="formRight">
+				<select id="leadType" class="box2" name="lead_type">
+					<option value="1">25</option>
+					<option value="2">50</option>
+					<option value="3">100</option>
+				</select>
+			</div>
+			<div class="">
+			 <button type="button" class="btn login100-walet-form-btn">BUY</button>
+			</div>	
+		</div>		
+	 </div>	
 	</div>
 
     <!-- Optional JavaScript -->

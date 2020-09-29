@@ -47,6 +47,31 @@ body {background-color: black !important;}
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+.login100-walet-form-btn {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 40%;
+  height: 40px;
+  border-radius: 25px;
+  background: #dc9421;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+	margin: 0 auto;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  margin-top:10%;
+}
 
 input {
   border: 0;
@@ -142,7 +167,37 @@ input:-webkit-autofill:active {
 .navbar-toggler-icon { 
  background-image: url( 
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(220, 148, 33, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; 
-} 
+}
+.result-card-con img{
+	width:40%;
+}
+.selectioncardbg{
+	background-color:black;
+	
+}
+.resultbox H3{
+	color:#ffffff;
+	font-size:25px;
+	font-weight:bold;
+	margin-top:20%;
+	
+}
+.selectioncard img{
+	width:50%;
+	height:auto;
+	margin-top:10%;
+	margin-bottom:10%
+}
+.formRight select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+}
 [placeholder]:focus::-webkit-input-placeholder {
     transition: text-indent 0.4s 0.4s ease; 
     text-indent: -100%;
