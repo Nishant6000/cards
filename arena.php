@@ -50,16 +50,16 @@
 		<div class="text-center col-md-9 selectioncardbg">
 			<div class="row">
 				<div class="col-md-3 selectioncard">
-					<img class="" src="./img/cardback.png" >
+					<img class="" src="./img/d.png" >
 				</div>
 				<div class="col-md-3 selectioncard">
-						<img class="" src="./img/cardback.png" >
+						<img class="" src="./img/c.png" >
 				</div>
 				<div class="col-md-3 selectioncard">
-						 <img class="" src="./img/cardback.png" >
+						 <img class="" src="./img/h.png" >
 				</div>
 				<div class="col-md-3 selectioncard">
-						<img class="" src="./img/cardback.png" >
+						<img class="" src="./img/e.png" >
 				</div>
 			</div>
 		</div>	
@@ -68,7 +68,7 @@
 				<select id="leadType" class="box2" name="lead_type">
 					<option value="1">25</option>
 					<option value="2">50</option>
-					<option value="3">100</option>
+					<option value="4">100</option>
 				</select>
 			</div>
 			<div class="">
@@ -76,6 +76,50 @@
 			</div>	
 		</div>		
 	 </div>	
+	 <div class="row">
+		<div class="text-center col-md-9">
+			<div class="row">
+				<div class="col-md-6 text-center selectioncardbtn">
+					 <button type="button" class="btn login100-walet-form-btn-dh">Draw History</button>
+				</div>
+				<div class="col-md-6 text-center selectioncardbtn">
+						 <button type="button" class="btn login100-walet-form-btn-t">Trends</button>
+				</div>
+			</div>
+		</div>	
+		<div class="text-center col-md-3">
+		</div>		
+	 </div> 
+	 <div class="card result-card-table">
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                   <th scope="col">SL No</th>
+                   <th scope="col">Draw No</th>
+                   <th scope="col">Winner</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>7465</td>
+                  <td>HEART</td>
+                </tr>
+				<tr>
+                  <th scope="row">2</th>
+                  <td>7466</td>
+                  <td>HEART</td>
+                </tr>
+				<tr>
+                  <th scope="row">3</th>
+                  <td>7467</td>
+                  <td>HEART</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+	</div>
 	</div>
 
     <!-- Optional JavaScript -->
@@ -86,7 +130,6 @@
 	<script src="./js/inhouse.js"></script>
   </body>
 </html>
-
 
 
 
