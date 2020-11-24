@@ -13,7 +13,7 @@
     <title>RICHIERICH!</title>
   </head>
   <body class="arena">
-	  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	  <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
 		  <a class="navbar-brand" href="#"><img class="brand" src="./img/richierich2.png"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
@@ -34,36 +34,37 @@
 	</nav>
   <div class="container">
 	 <div class="row tp1">
-		<div class="text-center resultbox col-md-3">
-		  <h3>Results:</h3>
+		<div class="text-center resultbox col-3">
+		  <h3>Result:</h3>
 		</div>	
-		<div class="text-center result-card-con col-md-3">
+		<div class="text-center result-card-con col-3">
 			<img class="" src="./img/cardback.png" >
 		</div>	
-		<div class="myvalbtn col-md-6">
+		<div class="myvalbtn col-6">
 			 <button type="button" class="btn login100-walet-form-btn">My Wallet: 1000</button>
 		</div>	
 	 </div>	
 	</div>
 	<div class="container">
 	 <div class="row">
-		<div class="text-center col-md-9 selectioncardbg">
+		<div class="text-center col-12 col-md-9 selectioncardbg">
 			<div class="row">
-				<div class="col-md-3 selectioncard">
+				<div class="col-3 col-md-3 selectioncard">
 					<img class="" src="./img/d.png" >
 				</div>
-				<div class="col-md-3 selectioncard">
+				<div class="col-3 col-md-3 selectioncard">
 						<img class="" src="./img/c.png" >
 				</div>
-				<div class="col-md-3 selectioncard">
+				<div class="col-3 col-md-3 selectioncard">
 						 <img class="" src="./img/h.png" >
 				</div>
-				<div class="col-md-3 selectioncard">
+				<div class="col-3 col-md-3 selectioncard">
 						<img class="" src="./img/e.png" >
 				</div>
 			</div>
 		</div>	
-		<div class="text-center col-md-3">
+		<div class="text-center col-12 col-md-3 respscrn">
+		<div class="text-center row">
 			<div class="formRight">
 				<select id="leadType" class="box2" name="lead_type">
 					<option value="1">25</option>
@@ -72,25 +73,26 @@
 				</select>
 			</div>
 			<div class="">
-			 <button type="button" class="btn login100-walet-form-btn">BUY</button>
+			 <button type="button" class="btn login100-walet-form-btn-buy">BUY</button>
 			</div>	
-		</div>		
+		</div>
+		</div>
 	 </div>	
 	 <div class="row">
 		<div class="text-center col-md-9">
 			<div class="row">
-				<div class="col-md-6 text-center selectioncardbtn">
+				<div class="col-6 col-md-6 text-center selectioncardbtn">
 					 <button type="button" class="btn login100-walet-form-btn-dh">Draw History</button>
 				</div>
-				<div class="col-md-6 text-center selectioncardbtn">
+				<div class="col-6 col-md-6 text-center selectioncardbtn">
 						 <button type="button" class="btn login100-walet-form-btn-t">Trends</button>
 				</div>
 			</div>
 		</div>	
 		<div class="text-center col-md-3">
-		</div>		
-	 </div> 
-	 <div class="card result-card-table">
+		</div>
+		<div class="col-12">
+		<div class="card result-card-table">
     <div class="table-responsive">
         <table class="table table-bordered table-striped">
             <thead>
@@ -120,6 +122,8 @@
         </table>
     </div>
 	</div>
+	 </div> 
+	 </div>
 	</div>
 
     <!-- Optional JavaScript -->
